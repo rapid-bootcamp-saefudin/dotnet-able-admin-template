@@ -8,9 +8,9 @@
 <div class="card-header">
     <h3>Get All Category</h3>
 </div>
-<div class="card-body p-0">
+<div class="card-body">
     <div class="table-responsive">
-        <a asp-action="Add" class="btn btn-sm btn-outline-success mt-2 mb-2">Add New Category</a>
+        <a asp-action="Add" class="btn btn-sm btn-outline-primary mt-2 mb-2"><i class="feather icon-plus"></i>New Category</a>
         <table class="table table-hover mb-0">
             <thead>
                 <tr>
@@ -31,9 +31,9 @@
                         <td>@item.CategoryDescription</td>
                         <td class="text-center">
                             @*<label class="badge badge-light-danger">Low</label>*@
-                            <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-sm btn-warning">Edit</a>
-                            <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-sm btn-primary">View</a>
-                            <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-sm btn-danger">Delete</a>
+                            <a asp-action="Detail" asp-route-id="@item.Id" class="btn btn-sm btn-info"><i class="feather icon-info"></i></a>
+                            <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-sm btn-warning"><i class="feather icon-edit"></i></a>
+                            <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-sm btn-danger"><i class="feather icon-trash"></i></a>
                         </td>
                     </tr>
                 }

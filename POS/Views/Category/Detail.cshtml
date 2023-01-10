@@ -5,24 +5,40 @@
     Layout = "_Layout";
 }
 
-<h2>Detail Category</h2>
-<table class="table table-bordered">
-    <tr>
-        <th>Id</th>
-        <td>@Model.Id</td>
-    </tr>
-    <tr>
-        <th>Code</th>
-        <td>@Model.CategoryCode</td>
-    </tr>
-    <tr>
-        <th>Name</th>
-        <td>@Model.CategoryName</td>
-    </tr>
-    <tr>
-        <th>Description</th>
-        <td>@Model.CategoryDescription</td>
-    </tr>
-</table>
-
-
+<div class="card-header">
+    <h3>Detail Category</h3>
+</div>
+<div class="card-body">
+    <div class="row d-flex justify-content-center">
+        <div class="col-md-6">
+            <div class="form-group row">
+                <label for="catId" class="col-sm-3 col-form-label"><strong>ID</strong></label>
+                <div class="col-sm-9">
+                    <label id="catId" class="form-control-plaintext">@Model.Id</label>
+                </div>
+            </div>
+            <hr />
+            <div class="form-group row">
+                <label for="catCode" class="col-sm-3 col-form-label"><strong>Code</strong></label>
+                <div class="col-sm-9">
+                    <label id="catCode" class="form-control-plaintext">@Model.CategoryCode</label>
+                </div>
+            </div>
+            <hr />
+            <div class="form-group row">
+                <label for="catName" class="col-sm-3 col-form-label"><strong>Name</strong></label>
+                <div class="col-sm-9">
+                    <label id="catName" class="form-control-plaintext">@Model.CategoryName</label>
+                </div>
+            </div>
+            <hr />
+            <div class="form-group row">
+                <label for="catDescription" class="col-sm-3 col-form-label"><strong>Description</strong></label>
+                <div class="col-sm-9">
+                    <label id="catDescription" class="form-control-plaintext">@Model.CategoryDescription</label>
+                </div>
+            </div>
+            <hr />
+        </div>
+    </div>
+</div>

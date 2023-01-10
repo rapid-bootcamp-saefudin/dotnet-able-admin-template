@@ -1,30 +1,39 @@
 ﻿@model POS.DataContext.CategoryEntity
 
 @{
-    ViewBag.Title = "title";
+    ViewBag.Title = "Edit Category";
     Layout = "_Layout";
 }
 
-<h2>Edit Category</h2>
-<form asp-controller="Category" asp-action="Update" method="post">
-    <div class="form-group">
-        <label asp-for="CategoryCode">Category Code</label>
-        <input asp-for="CategoryCode" class="form-control" />
-    </div>
-
-    <div class="form-group">
-        <label asp-for="CategoryName">Category Name</label>
-        <input asp-for="CategoryName" class="form-control" />
-    </div>
-
-    <div class="form-group">
-        <label asp-for="CategoryDescription">Category Description</label>
-        <input asp-for="CategoryDescription" class="form-control" />
-    </div>
-    <div class="form-footer">
-        <button type="submit">Save</button>
-    </div>
-</form>
+<div class="card-header">
+    <h3>Edit Category</h3>
+</div>
+<div class="card-body">
+    <form asp-controller="Category" asp-action="Update" method="post">
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="form-group">
+                    <label asp-for="CategoryCode" class="floating-label" for="CategoryCode">Category Code</label>
+                    <input asp-for="CategoryCode" class="form-control" id="CategoryCode" />
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="form-group">
+                    <label asp-for="CategoryName" class="floating-label" for="CategoryName">Category Name</label>
+                    <input asp-for="CategoryName" class="form-control" id="CategoryName" />
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="form-group">
+                    <label asp-for="CategoryDescription" class="floating-label" for="CategoryDescription">Category Description</label>
+                    <input asp-for="CategoryDescription" class="form-control" id="CategoryDescription" />
+                </div>
+            </div>
+        </div>
+        <a type="reset" asp-controller="Category" asp-action="GetAll" class="btn btn-secondary">Cancel</a>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>
 
 @section Scripts {
     @{
