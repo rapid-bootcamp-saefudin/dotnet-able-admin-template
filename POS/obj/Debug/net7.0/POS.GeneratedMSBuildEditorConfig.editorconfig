@@ -9,53 +9,53 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = POS
 build_property.RootNamespace = POS
-build_property.ProjectDir = f:\bootcamp\.net\bootcamp-project\dotnet-able-admin-template\POS\
+build_property.ProjectDir = F:\bootcamp\.net\bootcamp-project\dotnet-able-admin-template\POS\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = f:\bootcamp\.net\bootcamp-project\dotnet-able-admin-template\POS
+build_property.MSBuildProjectDirectory = F:\bootcamp\.net\bootcamp-project\dotnet-able-admin-template\POS
 build_property._RazorSourceGeneratorDebug = 
 
-[f:/bootcamp/.net/bootcamp-project/dotnet-able-admin-template/POS/Views/Category/Add.cshtml]
+[F:/bootcamp/.net/bootcamp-project/dotnet-able-admin-template/POS/Views/Category/Add.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcQWRkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[f:/bootcamp/.net/bootcamp-project/dotnet-able-admin-template/POS/Views/Category/Detail.cshtml]
+[F:/bootcamp/.net/bootcamp-project/dotnet-able-admin-template/POS/Views/Category/Detail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcRGV0YWlsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[f:/bootcamp/.net/bootcamp-project/dotnet-able-admin-template/POS/Views/Category/Edit.cshtml]
+[F:/bootcamp/.net/bootcamp-project/dotnet-able-admin-template/POS/Views/Category/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[f:/bootcamp/.net/bootcamp-project/dotnet-able-admin-template/POS/Views/Category/GetAll.cshtml]
+[F:/bootcamp/.net/bootcamp-project/dotnet-able-admin-template/POS/Views/Category/GetAll.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcR2V0QWxsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[f:/bootcamp/.net/bootcamp-project/dotnet-able-admin-template/POS/Views/Home/Index.cshtml]
+[F:/bootcamp/.net/bootcamp-project/dotnet-able-admin-template/POS/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[f:/bootcamp/.net/bootcamp-project/dotnet-able-admin-template/POS/Views/Home/Privacy.cshtml]
+[F:/bootcamp/.net/bootcamp-project/dotnet-able-admin-template/POS/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[f:/bootcamp/.net/bootcamp-project/dotnet-able-admin-template/POS/Views/Shared/Error.cshtml]
+[F:/bootcamp/.net/bootcamp-project/dotnet-able-admin-template/POS/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[f:/bootcamp/.net/bootcamp-project/dotnet-able-admin-template/POS/Views/Shared/_ValidationScriptsPartial.cshtml]
+[F:/bootcamp/.net/bootcamp-project/dotnet-able-admin-template/POS/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[f:/bootcamp/.net/bootcamp-project/dotnet-able-admin-template/POS/Views/_ViewImports.cshtml]
+[F:/bootcamp/.net/bootcamp-project/dotnet-able-admin-template/POS/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[f:/bootcamp/.net/bootcamp-project/dotnet-able-admin-template/POS/Views/_ViewStart.cshtml]
+[F:/bootcamp/.net/bootcamp-project/dotnet-able-admin-template/POS/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[f:/bootcamp/.net/bootcamp-project/dotnet-able-admin-template/POS/Views/Shared/_Layout.cshtml]
+[F:/bootcamp/.net/bootcamp-project/dotnet-able-admin-template/POS/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-syqlel1awz
