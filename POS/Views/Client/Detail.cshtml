@@ -1,0 +1,51 @@
+﻿@model POS.DataContext.ClientEntity
+
+@{
+    ViewBag.Title = "Client Detail";
+    Layout = "_Layout";
+}
+
+<div class="card-header">
+    <h3>Client Detail</h3>
+</div>
+<div class="card-body">
+    <div class="row d-flex justify-content-center">
+        <div class="col-md-6">
+            <div class="form-group row">
+                <label for="clientId" class="col-sm-3 col-form-label"><strong>ID</strong></label>
+                <div class="col-sm-9">
+                    <label id="clientId" class="form-control-plaintext">@Model.Id</label>
+                </div>
+            </div>
+            <hr />
+            <div class="form-group row">
+                <label for="clientName" class="col-sm-3 col-form-label"><strong>Name</strong></label>
+                <div class="col-sm-9">
+                    <label id="clientName" class="form-control-plaintext">@Model.ClientName</label>
+                </div>
+            </div>
+            <hr />
+            <div class="form-group row">
+                <label for="clientEmail" class="col-sm-3 col-form-label"><strong>Email</strong></label>
+                <div class="col-sm-9">
+                    <label id="clientEmail" class="form-control-plaintext">@Model.ClientEmail</label>
+                </div>
+            </div>
+            <hr />
+            <div class="form-group row">
+                <label for="clientGender" class="col-sm-3 col-form-label"><strong>Gender</strong></label>
+                <div class="col-sm-9">
+                    <label id="clientGender" class="form-control-plaintext">@Model.ClientGender</label>
+                </div>
+            </div>
+            <hr />
+            <div class="form-group row">
+                <label for="companyName" class="col-sm-3 col-form-label"><strong>Company Name</strong></label>
+                <div class="col-sm-9">
+                    <label id="companyName" class="form-control-plaintext">@Model.CompanyName</label>
+                </div>
+            </div>
+            <hr />
+        </div>
+    </div>
+</div>

@@ -1,7 +1,7 @@
-﻿/*using DotNetEfCore2.DataContext;
+﻿using POS.DataContext;
 using Microsoft.AspNetCore.Mvc;
 
-namespace DotNetEfCore2.Controllers
+namespace POS.Controllers
 {
     public class ClientController : Controller
     {
@@ -68,4 +68,3 @@ namespace DotNetEfCore2.Controllers
         }
     }
 }
-*/

@@ -1,0 +1,48 @@
+﻿@model POS.DataContext.ClientEntity
+
+@{
+    ViewBag.Title = "Add New Client";
+    Layout = "_Layout";
+}
+
+<div class="card-header">
+    <h3>Add New Client</h3>
+</div>
+<div class="card-body">
+    <form asp-controller="Client" asp-action="Save" method="post">
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="form-group">
+                    <label asp-for="ClientName" class="floating-label" for="ClientName">Client Name</label>
+                    <input asp-for="ClientName" class="form-control" id="ClientName" required/>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="form-group">
+                    <label asp-for="ClientEmail" class="floating-label" for="ClientEmail">Email</label>
+                    <input asp-for="ClientEmail" class="form-control" id="ClientEmail" required />
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="form-group">
+                    <label asp-for="ClientGender" class="floating-label" for="ClientGender">Gender</label>
+                    <input asp-for="ClientGender" class="form-control" id="ClientGender" required />
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="form-group">
+                    <label asp-for="CompanyName" class="floating-label" for="CompanyName">Company Name</label>
+                    <input asp-for="CompanyName" class="form-control" id="CompanyName" required />
+                </div>
+            </div>
+        </div>
+        <a type="reset" asp-controller="Client" asp-action="List" class="btn btn-secondary">Cancel</a>
+        <button type="submit" class="btn btn-primary">Save</button>
+    </form>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

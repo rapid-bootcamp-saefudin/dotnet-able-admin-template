@@ -32,6 +32,22 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcR2V0QWxsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[F:/bootcamp/.net/bootcamp-project/dotnet-able-admin-template/POS/Views/Client/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50XEFkZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/bootcamp/.net/bootcamp-project/dotnet-able-admin-template/POS/Views/Client/Detail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50XERldGFpbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/bootcamp/.net/bootcamp-project/dotnet-able-admin-template/POS/Views/Client/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50XEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/bootcamp/.net/bootcamp-project/dotnet-able-admin-template/POS/Views/Client/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50XExpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [F:/bootcamp/.net/bootcamp-project/dotnet-able-admin-template/POS/Views/Division/Add.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGl2aXNpb25cQWRkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

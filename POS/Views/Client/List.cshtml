@@ -1,0 +1,44 @@
+﻿@model IEnumerable<POS.DataContext.ClientEntity>
+
+@{
+    ViewBag.Title = "Get All Client";
+    Layout = "_Layout";
+}
+
+<div class="card-header">
+    <h3>Get All Client</h3>
+</div>
+<div class="card-body">
+    <div class="table-responsive">
+        <a asp-action="Add" class="btn btn-sm btn-outline-primary mt-2 mb-2"><i class="feather icon-plus"></i>New Category</a>
+        <table class="table table-hover mb-0">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Client Name</th>
+                    <th>Email</th>
+                    <th>Gender</th>
+                    <th>Company Name</th>
+                    <th class="text-center">Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.Id</td>
+                        <td>@item.ClientName</td>
+                        <td>@item.ClientEmail</td>
+                        <td>@item.ClientGender</td>
+                        <td>@item.CompanyName</td>
+                        <td class="text-center">
+                            <a asp-action="Detail" asp-route-id="@item.Id" class="btn btn-sm btn-info"><i class="feather icon-info"></i></a>
+                            <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-sm btn-warning"><i class="feather icon-edit"></i></a>
+                            <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-sm btn-danger"><i class="feather icon-trash"></i></a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
