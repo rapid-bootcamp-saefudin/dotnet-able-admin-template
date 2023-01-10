@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "c51jF5PG9mqQLKfltBx6wSH8PXt/+B8CLmeid5HuKtMa4WOW0Ab9DQMUPkmgYVVa9glez7UTb+utnCkbm4B0Vg==",
+  "dgSpecHash": "Yef7KWa88uNOAbT4SLdy+VIxmNZqMXivKJdsyM83TQIL8vrceA5+vystaZRf6D7qN7DFpN8KUws4TiEsixX5gg==",
   "success": true,
-  "projectFilePath": "F:\\bootcamp\\.net\\bootcamp-project\\POS\\POS\\POS.csproj",
+  "projectFilePath": "F:\\bootcamp\\.net\\bootcamp-project\\dotnet-able-admin-template\\POS\\POS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\muham\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\muham\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.12\\microsoft.entityframeworkcore.6.0.12.nupkg.sha512",

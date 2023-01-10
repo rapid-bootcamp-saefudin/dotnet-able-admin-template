@@ -829,11 +829,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\bootcamp\\.net\\bootcamp-project\\POS\\POS\\POS.csproj",
+      "projectUniqueName": "F:\\bootcamp\\.net\\bootcamp-project\\dotnet-able-admin-template\\POS\\POS.csproj",
       "projectName": "POS",
-      "projectPath": "F:\\bootcamp\\.net\\bootcamp-project\\POS\\POS\\POS.csproj",
+      "projectPath": "F:\\bootcamp\\.net\\bootcamp-project\\dotnet-able-admin-template\\POS\\POS.csproj",
       "packagesPath": "C:\\Users\\muham\\.nuget\\packages\\",
-      "outputPath": "F:\\bootcamp\\.net\\bootcamp-project\\POS\\POS\\obj\\",
+      "outputPath": "F:\\bootcamp\\.net\\bootcamp-project\\dotnet-able-admin-template\\POS\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\muham\\AppData\\Roaming\\NuGet\\NuGet.Config",
