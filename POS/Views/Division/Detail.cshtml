@@ -1,0 +1,37 @@
+﻿@model POS.DataContext.DivisionEntity
+
+@{
+    ViewData["Title"] = "Division Detail";
+    Layout = "_Layout";
+}
+
+<div class="card-header">
+    <h3>Division Detail</h3>
+</div>
+<div class="card-body">
+    <div class="row d-flex justify-content-center">
+        <div class="col-md-6">
+            <div class="form-group row">
+                <label for="divId" class="col-sm-3 col-form-label"><strong>ID</strong></label>
+                <div class="col-sm-9">
+                    <label id="divId" class="form-control-plaintext">@Model.Id</label>
+                </div>
+            </div>
+            <hr />
+            <div class="form-group row">
+                <label for="divName" class="col-sm-3 col-form-label"><strong>Name</strong></label>
+                <div class="col-sm-9">
+                    <label id="divName" class="form-control-plaintext">@Model.DivisionName</label>
+                </div>
+            </div>
+            <hr />
+            <div class="form-group row">
+                <label for="divDescription" class="col-sm-3 col-form-label"><strong>Description</strong></label>
+                <div class="col-sm-9">
+                    <label id="divDescription" class="form-control-plaintext">@Model.DivisionDescription</label>
+                </div>
+            </div>
+            <hr />
+        </div>
+    </div>
+</div>

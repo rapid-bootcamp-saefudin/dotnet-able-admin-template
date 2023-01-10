@@ -1,5 +1,6 @@
-﻿/*using DotNetEfCore2.DataContext;
+﻿using POS.DataContext;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore.Storage;
 
 namespace DotNetEfCore2.Controllers
 {
@@ -51,7 +52,7 @@ namespace DotNetEfCore2.Controllers
         {
             _context.DivisionEntities.Update(request);
             _context.SaveChanges();
-            return Redirect("List");
+            return RedirectToAction("List");
         }
 
         [HttpGet]
@@ -68,4 +69,3 @@ namespace DotNetEfCore2.Controllers
         }
     }
 }
-*/
