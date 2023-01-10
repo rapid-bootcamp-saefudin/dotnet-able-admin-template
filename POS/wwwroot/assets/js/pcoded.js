@@ -814,3 +814,6 @@ $.ripple(".btn, .pcoded-navbar a,.pcoded-header .navbar-nav > li > .dropdown > a
 $('#more-details').on('click', function() {
     $('#nav-user-link').slideToggle();
 });
+// more-details end
+// var $window=$(window),nav=$(".fixed-button");
+// $window.scroll(function(){$window.scrollTop()>=200?nav.addClass("active"):nav.removeClass("active")});

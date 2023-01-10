@@ -5,7 +5,9 @@
     Layout = "_Layout";
 }
 
-<h2>Get All Category</h2>
+<div class="card-header">
+    <h3>Get All Category</h3>
+</div>
 <div class="card-body p-0">
     <div class="table-responsive">
         <a asp-action="Add" class="btn btn-sm btn-outline-success mt-2 mb-2">Add New Category</a>
@@ -16,7 +18,7 @@
                     <th>Code</th>
                     <th>Name</th>
                     <th>Description</th>
-                    <th class="text-right">Action</th>
+                    <th class="text-center">Action</th>
                 </tr>
             </thead>
             <tbody>
@@ -25,8 +27,8 @@
                     <tr>
                         <td>@item.Id</td>
                         <td>@item.CategoryCode</td>
-                        <td>CategoryName</td>
-                        <td>CategoryDescription</td>
+                        <td>@item.CategoryName</td>
+                        <td>@item.CategoryDescription</td>
                         <td class="text-center">
                             @*<label class="badge badge-light-danger">Low</label>*@
                             <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-sm btn-warning">Edit</a>
